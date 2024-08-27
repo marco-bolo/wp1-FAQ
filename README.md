@@ -91,8 +91,8 @@ _1 Where and how should I use vocabularies_
   - Sediment: http://purl.obolibrary.org/obo/ENVO_00002007 (but also acceptable to use ENVO:00002007)  
   - Biodiversity: http://aims.fao.org/aos/agrovoc/c_33949 or https://vocabularyserver.com/asfa/index.php?tema=2185 (same vocab, different lookup services)
   - Solea solea: https://www.marinespecies.org/aphia.php?p=taxdetails&id=127160 from WoRMS (also acceptable urn:lsid:marinespecies.org:taxname:127160 or AphiaID:127160) together with the rank (“species”);  https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=90069 or NCBI:txid90069 for genomics
-  - CTD: https://vocab.nerc.ac.uk/collection/S04/current/S0458/
-  - Belgium exclusive economic zone: http://marineregions.org/mrgid/3293 or MRGID:3293  
+  - CTD: https://vocab.nerc.ac.uk/collection/S04/current/S0458/ 
+  - Belgium exclusive economic zone: http://marineregions.org/mrgid/3293  or MRGID:3293  
 
 - Since the URLs are sometimes difficult for humans to read, you can chose to include both the literal and the URL, using the approach described in FAQ A3
 
