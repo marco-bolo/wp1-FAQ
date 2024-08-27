@@ -8,8 +8,8 @@
 - [E. People and institutes](#e-people-and-institutes)
 - [F. Provenance](#f-provenance)
 - [G. Software](#g-software)
-- [H. Sharing/publishing](#h-sharing-publishing)
-- [I. Excel/google to CSV](#i-excel-google-to-csv)
+- [H. Sharing/publishing](#h-sharingpublishing)
+- [I. Excel/google to CSV](#i-excelgoogle-to-csv)
 - [J. What other things can we can help you with](#j-what-other-things-can-we-can-help-you-with)
 
 Frequently Asked Questions from other project partners regarding MARCO-BOLO data management approaches
