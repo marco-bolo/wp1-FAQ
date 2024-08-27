@@ -1,6 +1,16 @@
 # MARCO-BOLO WP1 Frequently Asked Questions
 
-- [G] (#g-software)
+-
+- [A. Formatting spreadsheets for MBO (dataset collection or to publish as a dataset)](#a-formatting-spreadsheets-for-mbo-dataset-collection-or-to-publish-as-a-dataset)
+- [B. The use of controlled vocabularies](#b-the-use-of-controlled-vocabularies)
+- [C. Formatting of values](#c-formatting-of-values)
+- [D. Geographic coordinates](#d-geographic-coordinates)
+- [E. People and institutes](#e-people-and-institutes)
+- [F. Provenance](#f-provenance)
+- [G. Software](#g-software)
+- [H. Sharing/publishing](#h-sharing-publishing)
+- [I. Excel/google to CSV](#i-excel-google-to-csv)
+- [J. What other things can we can help you with](#j-what-other-things-can-we-can-help-you-with)
 
 Frequently Asked Questions from other project partners regarding MARCO-BOLO data management approaches
 
@@ -14,7 +24,7 @@ However, they were collecting data that should become part of their published da
 
 This FAQ is not aimed as a guide for completing the WP1 metadata template spreadsheets.
 
-# A. Formatting spreadsheets for MBO (dataset collection or to publish as a dataset)
+## A. Formatting spreadsheets for MBO (dataset collection or to publish as a dataset)
 
 _1 What metadata should I include in a spreadsheet that describes a collection of datasets or is a meta-analysis?_
 
@@ -73,7 +83,7 @@ For common information, we advise the following:
 - This additional metadata can then be used when you describe your spreadsheet as a dataset in the Marco Bolo collection. 
 - When collecting these particular extra metadata, do not use the same “extra metadata file” mentioned above, as the formatting in this case will just be plain text. You could perhaps have an extra-metadata.csv file and a descriptive-metadata.txt file. 
 
-# B. The use of controlled vocabularies
+## B. The use of controlled vocabularies
 
 _1 Where and how should I use vocabularies_
 
@@ -115,7 +125,7 @@ Do not use acronyms in your description, as others will not understand these.
 Where possible (keywords, habitats), use terms that are good enough rather than no term at all.
 Better to be more general than more specific if choosing terms for instruments and measurements: in BODC, for example, at the bottom of the term page is a list of related terms which are broader-than or narrower-than and you can use this to hone in on a better choice. 
 
-# C. Formatting of values
+## C. Formatting of values
 
 _1 How should I format numbers_
 
@@ -140,7 +150,7 @@ _4 Can I fill cells with more than one value/no values_
 - Never leave a cell blank - use NA if there will never be a value in there
 - Never use “see above” or “see row 3” or “ “” “: when someone does a filtering on that spreadsheet, these information will be useless
 
-# D Geographic coordinates
+## D. Geographic coordinates
 
 _1 How do I give geographic coordinates_
 
@@ -150,7 +160,7 @@ _1 How do I give geographic coordinates_
 - For sites, give the unique ID of the site or use a controlled vocabulary if you want to describe the site type. Coordinates will of course also be required.  
 - It is good to give both coordinates and a Marine Regions identifier (mrgid) (you can find yours by using https://marineregions.org/gazetteer.php?p=search), or the identifier of the place found in another gazetteer, like in http://www.geonames.org/, because this makes searching for those data, and grouping them with other data, easier for the database where you will eventually publish your data.
 
-# E People and institutes
+## E. People and institutes
 
 _1 What people information do I include_
 
@@ -160,7 +170,7 @@ _2 what institute or project information do I include_
 
 See FAQ C2
 
-# F Provenance
+## F. Provenance
 
 _1 What is provenance?_
 
@@ -206,7 +216,7 @@ For data that you publish, a certain among of provenance information can be adde
 
 You can contact WP1 for advice about formulating such a provenance file.
 
-# G Software
+## G. Software
 
 _1 What information about software do I need to document_
 
@@ -219,7 +229,7 @@ _2 How do I publish my software?_
 
 - Publish also any software you create in your work. One way to do this is to put the software on GitHub (making it public), describe the software using a CodeMeta template that katrina.exter@vliz.be can provide for you, and then linking that to Zenodo using the advise on https://coderefinery.github.io/github-without-command-line/doi/
 
-# H Sharing/publishing
+## H. Sharing/publishing
 
 _1 What steps do I take when publishing my meta-analysis/data compilation?_
 
@@ -248,7 +258,7 @@ _3 What steps do I take when publishing my data (as derived from NOT already-pub
 If the data that you are using in your analysis are not publicly accessible, i.e. they are not published, then you should publish them yourself, following the advice given in points 1 and 2 above.  
 If these data “belong” to another organisation or someone else, you should consult with them in this process. Perhaps they want to publish the data themselves? If they do not allow the data to be published (but your analysis of those data can be published, otherwise they cannot be MBO data), at a minimum there should be a metadata record of that data in a public archive/catalogue, where the data are not included as a download. If this happens, ask WP1 for advice as it will have to be dealt with on a case-by-case basis.
 
-# I Excel/google to CSV
+## I. Excel/google to CSV
  
 _1 What do I have to pay attention to when converting my spreadsheet to CSV_
 
@@ -260,7 +270,7 @@ When you want to publish your data. I.e. make them public, you need to export ea
 
 
 
-**J What other things can we can help you with**
+## J. What other things can we can help you with
 
 - If you have standard instruments/parameters that you use/collect, we can provide a mapping to vocabularies as this will significantly interoperability not only between the WP5 datasets, but also other (non-Marco Bolo) data (see point 1)
 - If you have standardised, published (DOI or PDF) methodologies for your data collection/analysis, please let us know as we can create a repository on GitHub to hold those, and which will allow us to use it as a guide for EOV generation. (see point 17)
