@@ -106,7 +106,7 @@ For common information, we advise the following:
   - CTD: https://vocab.nerc.ac.uk/collection/S04/current/S0458/ 
   - Belgium exclusive economic zone: http://marineregions.org/mrgid/3293  or MRGID:3293  
 
-- Since the URLs are sometimes difficult for humans to read, you can chose to include both the literal and the URL, using the approach described in FAQ A3
+- Since the URLs are sometimes difficult for humans to read, you can chose to include both the literal and the URL, using the approach described in [FAQ A3](#3-formatting-a-spreadsheet-when-i-have-to-give-units--controlled-vocabulary-terms--common-information-over-and-over-again)
 
 #### 2. What are recommended vocabularies to use
 
