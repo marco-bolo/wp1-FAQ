@@ -25,7 +25,7 @@ This FAQ is not aimed as a guide for completing the WP1 metadata template spread
 
 ## A. Formatting spreadsheets for MBO (dataset collection or to publish as a dataset)
 
-_1 What metadata should I include in a spreadsheet that describes a collection of datasets or is a meta-analysis?_
+#### 1. What metadata should I include in a spreadsheet that describes a collection of datasets or is a meta-analysis?
 
 The specific metadata required will depend on the details of your work, however along with the necessary scientific, technical, numerical metadata that you record, you should include the following domains. 
 - Where? From where did the information come? 
@@ -49,11 +49,11 @@ The specific metadata required will depend on the details of your work, however 
 
 These fields should be included as columns in a spreadsheet (noting that we are assuming here that each row is a separate piece of information/data value(s)/dataset)
 
-_2 Dealing with multi-tab spreadsheets_
+#### 2. Dealing with multi-tab spreadsheets
 
 If you are using multiple tabs to record different information about the same topic/objects/task, , then use internal IDs across those tabs to link the records to each other. For example, in each tab you can have a first column “internal id” or “internal dataset number” and fill that in each row. These should be always completely unique for all spreadsheets and all tabs you will ever collect. 
 
-_3 Formatting a spreadsheet when I have to give units / controlled vocabulary terms / common information over and over again_
+#### 3. Formatting a spreadsheet when I have to give units / controlled vocabulary terms / common information over and over again
 
 It is advised (below) that no cell in a spreadsheet contains more than one type of value -- a number or a unit, but not both. So the value should go in one column and the unit in the next. 
 It is also recommended that every measurement is given (also) as a URL taken from a controlled vocabulary, not only as the literal, again requiring two columns.
@@ -84,7 +84,7 @@ For common information, we advise the following:
 
 ## B. The use of controlled vocabularies
 
-_1 Where and how should I use vocabularies_
+#### 1. Where and how should I use vocabularies
 
 - Use vocabularies for 
   - Measurements/parameters
@@ -108,7 +108,7 @@ _1 Where and how should I use vocabularies_
 
 - Since the URLs are sometimes difficult for humans to read, you can chose to include both the literal and the URL, using the approach described in FAQ A3
 
-_2 What are recommended vocabularies to use_
+#### 2. What are recommended vocabularies to use
 
 See question 1 for examples of what the term should look like. These examples are taken from these recommended vocabularies:
 - For measurements/parameters, instruments and units: The NERC Vocabulary Server, access via https://vocab.seadatanet.org/p01-facet-search or https://vocab.nerc.ac.uk/search_nvs/
@@ -117,7 +117,7 @@ See question 1 for examples of what the term should look like. These examples ar
 - For Marine Species names: https://www.marinespecies.org/index.php and for genomics ones, https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi 
 - For keywords: ASFA is quite good and can be accessed via https://vocabularyserver.com/asfa/ and https://agrovoc.fao.org/skosmosAsfa/asfa/en/
 
-_3 What if I cannot find my terms in a recommended vocabulary_
+#### 3. What if I cannot find my terms in a recommended vocabulary
 
 If you cannot find a vocabulary, ask WP1 for help. If we cannot, then please ensure that the term is specifically, clearly, and fully described (ask WP1 to review your descriptions). The description should allow someone to know exactly what you are talking about. 
 Do not use acronyms in your description, as others will not understand these.
@@ -126,23 +126,24 @@ Better to be more general than more specific if choosing terms for instruments a
 
 ## C. Formatting of values
 
-_1 How should I format numbers_
+#### 1. How should I format numbers
 
 - Use the number formatting standard of ‘point’ for decimal notation, e.g 10.50 not 10,50 for “ten and a half”, as it is much easier to deal with if there is one consistent approach to numbers over all MBO work. 
 - Do not enter numbers with , between the thousands 
-- Bear in mind that your spreadsheet application may change the number formatting to whatever is standard for your version of that app. You should change that: e.g. in excel you can either specifically change the formatting of the column to be “text” or type a ‘ before the number (that forces excel to accept what you type) 
-_2 How should I deal with units_
+- Bear in mind that your spreadsheet application may change the number formatting to whatever is standard for your version of that app. You should change that: e.g. in excel you can either specifically change the formatting of the column to be “text” or type a ‘ before the number (that forces excel to accept what you type)
+  
+#### 2. How should I deal with units
 
-See FAQ A3
+See FAQ A3 [FAQ A3](#3-formatting-a-spreadsheet-when-i-have-to-give-units-controlled-vocabulary-terms-common-information-over-and-over-again)
 
-_3 How should I format dates, times, countries, people_
+#### 3. How should I format dates, times, countries, people
 
 - Use ISO standards for dates (YYYY-MM-DD) and always use UTC
 - You may need to modify the default date formatting of your spreadsheet application: either tell it to use that ISO format or write the value with a ‘ in front of it (excel, probably works for googlesheets also) 
 - Use ISO standards also for countries (BE or BEL not Belgium)
 - For all mentions of people use the first name, surname, ORCID, email, institute. For all mentions of an institute, use its full name, a URL (home page), and a ROR/EDMO ID
 
-_4 Can I fill cells with more than one value/no values_
+#### 4. Can I fill cells with more than one value/no values
 
 - If you have a list to enter in a cell, use “;” or “|” as the separator, because the “,” is the separator of the CSV (comma separated variable) format that you should be exporting your spreadsheet as
 - Do not mix types of values: do not have a number and a string in the same cell (unless it is a comment)
@@ -151,7 +152,7 @@ _4 Can I fill cells with more than one value/no values_
 
 ## D. Geographic coordinates
 
-_1 How do I give geographic coordinates_
+#### 1. How do I give geographic coordinates
 
 - Give the most specific geographic information you can: not just a site ID, but also its latitude, longitude or bounding box. 
 - You can create bounding boxes with this tool: see https://wktmap.com/?8f50dfaa  for an example and to see some examples: POLYGON and POINT will be the most useful types of bounding boxes
@@ -161,17 +162,17 @@ _1 How do I give geographic coordinates_
 
 ## E. People and institutes
 
-_1 What people information do I include_
+#### 1. What people information do I include
 
 See FAQ C2
 
-_2 what institute or project information do I include_
+#### 2. what institute or project information do I include
 
 See FAQ C2
 
 ## F. Provenance
 
-_1 What is provenance?_
+#### 1. What is provenance?
 
 Provenance is the history of an object that allows you to know how the object came to be and what has been done to it over time. 
 Provenance of data are:
@@ -185,7 +186,7 @@ Provenance of data are:
   - someone to trust your final data products, and hence to be able to use them 
 
 
-_2 What (provenance) information should I collect as I go through my project_
+#### 2. What (provenance) information should I collect as I go through my project
 
 - Record the origin of any source data used: where you got the data from (URL) and where the metadata record of that data can be found (if different; URL), who were the data creators and data owners, the data licence, what parameters you set if you did not download the entire dataset.
 - The name of the protocols that were followed: if these are published, then their URL/DOI, if they are not then the filename and remember to publish those as part of your eventual dataset. 
@@ -194,17 +195,17 @@ _2 What (provenance) information should I collect as I go through my project_
 - Who did the work (name, email, ORCID, and institute name and ID).
 - Where and when were any material or measurements collected/made (geocoordinates, and UTC timezone or local time+time difference from UTC). 
 
-_3 What about datasets that are not publicly available?_
+#### 3. What about datasets that are not publicly available?
 
 See FAQ H3
 
-_4 What information about protocols should I provide_
+#### 4. What information about protocols should I provide
 
 Any work done to collect, create, or process material should be described in protocol documents: either the Standard Operating Procedure (SOP) document that you followed plus information about deviations therefore, or, if that does not exist, then you should create your own protocol document by writing down what you did. You can then either publish this as a protocol (e.g. OBPS, protocols.io, zenodo) or provide it as part of your dataset package when you publish your final data.
 
 A protocol document should include the details of every step you followed in collecting, creating, and/or processing the material, such that someone else can follow that.   
 
-_5. How can I provide provenance information_
+#### 5. How can I provide provenance information
 
 For data that you publish, a certain among of provenance information can be added to the metadata of that publisher: often the who, what (taxonomy, parameters), when are described in metadata, and sometimes you can also include links to the protocols. However, on the whole most data publishers do not accommodate well for the provision of provenance. So instead you can describe this in a file, in which you include all the provenance information 
 - Who did the work, who owns the data, the licence, your desired citation 
@@ -217,20 +218,20 @@ You can contact WP1 for advice about formulating such a provenance file.
 
 ## G. Software
 
-_1 What information about software do I need to document_
+#### 1. What information about software do I need to document
 
 - Software that you create need to be described with their own metadata. There is a particular template for this description provided by the CodeMeta project, and when it is time for you to do this, ask WP1 for the template and guidance. 
 - The metadata required will be: details of the contributors, the funders, the maintainers. The software language. The libraries used in the software, including their versions. 
 - If you use other software in your work, then you should include metadata about that software as part of the provenance of your eventual products: name of the software, version used, URL of the software (e.g. a GH repository), citation required by the software.
 - For all software (your own or other), you need to also provide either the input files you used or a text file listing the input parameters you set. 
 
-_2 How do I publish my software?_
+#### 2. How do I publish my software?
 
 - Publish also any software you create in your work. One way to do this is to put the software on GitHub (making it public), describe the software using a CodeMeta template that katrina.exter@vliz.be can provide for you, and then linking that to Zenodo using the advise on https://coderefinery.github.io/github-without-command-line/doi/
 
 ## H. Sharing/publishing
 
-_1 What steps do I take when publishing my meta-analysis/data compilation?_
+#### 1. What steps do I take when publishing my meta-analysis/data compilation?
 
 Any data created in MBO will need to be published as a dataset in an archive/repository; this will include any meta-analysis, any gathering of data from various sources to create a new dataset.
 The spreadsheets that you collect the metadata and possibly also the metadata will become the dataset that you publish, together with any other explanatory text files or spreadsheets (see FAQ A3). 
@@ -242,7 +243,7 @@ Step 4: make sure that your metadata description of that dataset is as complete 
 Step 5: enter the URL/DOI and other details of that publication on the WP2,3,4 or 5 googlesheet:https://drive.google.com/drive/folders/1L7Kpz75q0rh6hjZdc7365VV1_Yb07jmi.   
 
 
-_2 What steps do I take when publishing my data as derived from already-published data_
+#### 2. What steps do I take when publishing my data as derived from already-published data
 
 Any data created in MBO will need to be published as a dataset in an archive/repository; this will include data created by you from source data, e.g. by processing through some software, or by having selected/combined subsets, or by having done QC on some source data, etc. 
 
@@ -252,14 +253,14 @@ It will be necessary to describe the provenance of those published datasets. Oft
 
 Remember also to publish any code created under MBO (see FAQ G1).
 
-_3 What steps do I take when publishing my data (as derived from NOT already-published data)_
+#### 3. What steps do I take when publishing my data (as derived from NOT already-published data)
 
 If the data that you are using in your analysis are not publicly accessible, i.e. they are not published, then you should publish them yourself, following the advice given in points 1 and 2 above.  
 If these data “belong” to another organisation or someone else, you should consult with them in this process. Perhaps they want to publish the data themselves? If they do not allow the data to be published (but your analysis of those data can be published, otherwise they cannot be MBO data), at a minimum there should be a metadata record of that data in a public archive/catalogue, where the data are not included as a download. If this happens, ask WP1 for advice as it will have to be dealt with on a case-by-case basis.
 
 ## I. Excel/google to CSV
  
-_1 What do I have to pay attention to when converting my spreadsheet to CSV_
+#### 1. What do I have to pay attention to when converting my spreadsheet to CSV
 
 When you want to publish your data. I.e. make them public, you need to export each tab of your spreadsheet as CSV. When doing that, bear these points in mind:
 - Make sure you modify or remove the default formatting of the spreadsheet app (usually excel or google) you are using, as that always messes up numbers and dates. See FAQ C1 and C3 for specific advice. 
