@@ -164,11 +164,17 @@ See [FAQ A3](#3-formatting-a-spreadsheet-when-i-have-to-give-units--controlled-v
 
 #### 1. What people information do I include
 
-See FAQ C2
+Important people to mention are
+- contact (whether that is a person or a general email address)
+- contributors (to the data, to the analysis, to the material work)
+- For all mentions of people use the first name, surname, ORCID, email, institute name
+- Ideally also give the institute details (address), but at least include the country
+
 
 #### 2. what institute or project information do I include
 
-See FAQ C2
+Projects under which data were created, and funders, will expect to be mentioned
+- Use their full name, their relationship to the data (funder, project), a URL (home page), and a ROR/EDMO ID or project ID if there is one
 
 ## F. Provenance
 
