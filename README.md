@@ -237,21 +237,26 @@ Any data created in MBO will need to be published as a dataset in an archive/rep
 The spreadsheets that you collect the metadata and possibly also the metadata will become the dataset that you publish, together with any other explanatory text files or spreadsheets (see FAQ A3). 
 
 Step 1: make sure your (data and metadata) spreadsheets are filled in and formatted as explained in FAQ A,B,C,D,E.
-Step 2: spreadsheets need to be published as CSV format, not as excel (xlsx) or other proprietary formats. When doing so, pay attention to the advice in FAQ I.
+
+Step 2: spreadsheets need to be published as CSV format, not as excel (xlsx) or other proprietary formats. When doing so, pay attention to the advice in [FAQ I](#i-excelgoogle-to-csv).
+
 Step 3: decide where you want to publish your data → you can ask WP1 for advice. When we say “publish”, we do not mean a scientific journal, we mean a public database or archive (OBIS, PANGAEA, etc).
+
 Step 4: make sure that your metadata description of that dataset is as complete as that publisher allows. 
+
 Step 5: enter the URL/DOI and other details of that publication on the WP2,3,4 or 5 googlesheet:https://drive.google.com/drive/folders/1L7Kpz75q0rh6hjZdc7365VV1_Yb07jmi.   
+
 
 
 #### 2. What steps do I take when publishing my data as derived from already-published data
 
 Any data created in MBO will need to be published as a dataset in an archive/repository; this will include data created by you from source data, e.g. by processing through some software, or by having selected/combined subsets, or by having done QC on some source data, etc. 
 
-Where those data are spreadsheets, remember to include a metadata spreadsheet (FAS A3) and possibly an explanatory and provenance (FAQ F5) text file.
+Where those data are spreadsheets, remember to include a metadata spreadsheet ([FAQ A3](#3-formatting-a-spreadsheet-when-i-have-to-give-units--controlled-vocabulary-terms--common-information-over-and-over-again)) and possibly an explanatory and provenance ([FAQ F5](#5-how-can-i-provide-provenance-information)) text file.
  
-It will be necessary to describe the provenance of those published datasets. Often this is not fully accommodated in online archives, so you should take the approach of writing this into a text file and publishing that file along with your datasets. See FAQ F. 
+It will be necessary to describe the provenance of those published datasets. Often this is not fully accommodated in online archives, so you should take the approach of writing this into a text file and publishing that file along with your datasets. See [FAQ F](#f-provenance). 
 
-Remember also to publish any code created under MBO (see FAQ G1).
+Remember also to publish any code created under MBO (see [FAQ G1](#1-what-information-about-software-do-i-need-to-document)).
 
 #### 3. What steps do I take when publishing my data (as derived from NOT already-published data)
 
@@ -263,7 +268,7 @@ If these data “belong” to another organisation or someone else, you should c
 #### 1. What do I have to pay attention to when converting my spreadsheet to CSV
 
 When you want to publish your data. I.e. make them public, you need to export each tab of your spreadsheet as CSV. When doing that, bear these points in mind:
-- Make sure you modify or remove the default formatting of the spreadsheet app (usually excel or google) you are using, as that always messes up numbers and dates. See FAQ C1 and C3 for specific advice. 
+- Make sure you modify or remove the default formatting of the spreadsheet app (usually excel or google) you are using, as that always messes up numbers and dates. See FAQ [C1](#1-how-should-i-format-numbers) and [C3](#3-how-should-i-format-dates-times-countries-people) for specific advice. 
 - When you do save to CSV format, remember to ensure you are displaying the entire spreadsheet (no filter!) at the time
 - And remember that you will need to export each tab one at a time.
 - Remember that any colours, comments, or fancy characters you have used will disappear when you export as CSV
