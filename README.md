@@ -197,7 +197,7 @@ Provenance of data are:
 
 #### 3. What about datasets that are not publicly available?
 
-See FAQ H3
+[See FAQ H3](#3-what-steps-do-i-take-when-publishing-my-data-as-derived-from-not-already-published-data)
 
 #### 4. What information about protocols should I provide
 
