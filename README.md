@@ -1,6 +1,5 @@
 # MARCO-BOLO WP1 Frequently Asked Questions
 
--
 - [A. Formatting spreadsheets for MBO (dataset collection or to publish as a dataset)](#a-formatting-spreadsheets-for-mbo-dataset-collection-or-to-publish-as-a-dataset)
 - [B. The use of controlled vocabularies](#b-the-use-of-controlled-vocabularies)
 - [C. Formatting of values](#c-formatting-of-values)
