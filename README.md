@@ -134,7 +134,7 @@ Better to be more general than more specific if choosing terms for instruments a
   
 #### 2. How should I deal with units
 
-See FAQ A3 [FAQ A3](#3-formatting-a-spreadsheet-when-i-have-to-give-units-controlled-vocabulary-terms-common-information-over-and-over-again)
+See [FAQ A3](#3-formatting-a-spreadsheet-when-i-have-to-give-units--controlled-vocabulary-terms--common-information-over-and-over-again)
 
 #### 3. How should I format dates, times, countries, people
 
