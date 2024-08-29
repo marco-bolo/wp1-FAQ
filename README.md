@@ -209,7 +209,7 @@ A protocol document should include the details of every step you followed in col
 
 For data that you publish, a certain among of provenance information can be added to the metadata of that publisher: often the who, what (taxonomy, parameters), when are described in metadata, and sometimes you can also include links to the protocols. However, on the whole most data publishers do not accommodate well for the provision of provenance. So instead you can describe this in a file, in which you include all the provenance information 
 - Who did the work, who owns the data, the licence, your desired citation 
-- How was the work done (protocols and and software parameter files -- see FAQ G). - 
+- How was the work done (protocols and and software parameter files -- see [FAQ G](#g-software)). - 
 - Where did the source material/measurements (geocoordinates) or source data (URL) come from
 - At what date/time was any source material or measurements made? 
 - What is in the dataset (which parameters/measurements, which species, which EOVs/EBVs)
@@ -234,7 +234,7 @@ You can contact WP1 for advice about formulating such a provenance file.
 #### 1. What steps do I take when publishing my meta-analysis/data compilation?
 
 Any data created in MBO will need to be published as a dataset in an archive/repository; this will include any meta-analysis, any gathering of data from various sources to create a new dataset.
-The spreadsheets that you collect the metadata and possibly also the metadata will become the dataset that you publish, together with any other explanatory text files or spreadsheets (see FAQ A3). 
+The spreadsheets that you collect the metadata and possibly also the metadata will become the dataset that you publish, together with any other explanatory text files or spreadsheets (see [FAQ A3](#3-formatting-a-spreadsheet-when-i-have-to-give-units--controlled-vocabulary-terms--common-information-over-and-over-again)). 
 
 Step 1: make sure your (data and metadata) spreadsheets are filled in and formatted as explained in FAQ A,B,C,D,E.
 
